@@ -1,0 +1,39 @@
+# --------------------
+# Linux Files
+# --------------------
+*.swo
+*.swp
+*.module-cache
+*.DS_Store
+
+# --------------------
+# Node Files
+# --------------------
+node_modules/*
+npm-debug.log
+
+# --------------------
+# Bower Files
+# --------------------
+.bower-*/
+bower_components
+
+# --------------------
+# Profiling
+# --------------------
+newrelic_agent.log
+Procfile
+
+# --------------------
+# Coverage
+# --------------------
+debug/*
+.debug/*
+.coverrun
+.coverdata/*
+
+# --------------------
+# Builds
+# --------------------
+build/
+dist/
